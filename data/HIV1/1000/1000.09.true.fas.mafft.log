@@ -1,4 +1,0 @@
-usage: ViralMSA.py [-h] -s SEQUENCES -r REFERENCE -e EMAIL -o OUTPUT
-                   [-a ALIGNER] [-t THREADS] [--include_ref]
-                   [--viralmsa_dir VIRALMSA_DIR]
-ViralMSA.py: error: the following arguments are required: -e/--email, -o/--output
