@@ -1,0 +1,9 @@
+Alignment type: Web alignment (all complete sequences)
+Year: 2018
+Organism: HIV-1/SIVcpz
+DNA/Protein: DNA
+Region: genome
+Subtype: NO Recombinants (A-K)
+Format: FASTA
+Alignment ID : 118AG1
+Number of sequences: 2322
