@@ -1,0 +1,17 @@
+[2020-04-19 22:05:08] ===== USER ARGUMENTS =====
+[2020-04-19 22:05:08] Sequences: /home/niemamoshiri/ViralMSA-Paper/data/HIV1/100/100.04.true.fas
+[2020-04-19 22:05:08] Reference: K03455
+[2020-04-19 22:05:08] Email Address: niemamoshiri@gmail.com
+[2020-04-19 22:05:08] Output Directory: /home/niemamoshiri/ViralMSA-Paper/data/HIV1/100/100.04.true.fas.viralmsa
+[2020-04-19 22:05:08] Aligners: minimap2
+[2020-04-19 22:05:08] ViralMSA Cache Directory: /home/niemamoshiri/.viralmsa
+[2020-04-19 22:05:08] 
+[2020-04-19 22:05:08] ===== REFERENCE GENOME =====
+[2020-04-19 22:05:08] Reference genome found: /home/niemamoshiri/.viralmsa/K03455/K03455.fas
+[2020-04-19 22:05:08] Minimap2 index found: /home/niemamoshiri/.viralmsa/K03455/K03455.fas.mmi
+[2020-04-19 22:05:08] 
+[2020-04-19 22:05:08] ===== ALIGNMENT =====
+[2020-04-19 22:05:08] Aligning using Minimap2: minimap2 -t 4 -a -o /home/niemamoshiri/ViralMSA-Paper/data/HIV1/100/100.04.true.fas.viralmsa/100.04.true.fas.sam /home/niemamoshiri/.viralmsa/K03455/K03455.fas.mmi /home/niemamoshiri/ViralMSA-Paper/data/HIV1/100/100.04.true.fas
+[2020-04-19 22:05:08] Minimap2 alignment complete: /home/niemamoshiri/ViralMSA-Paper/data/HIV1/100/100.04.true.fas.viralmsa/100.04.true.fas.sam
+[2020-04-19 22:05:08] Converting SAM to FASTA...
+[2020-04-19 22:05:08] Multiple sequence alignment complete: /home/niemamoshiri/ViralMSA-Paper/data/HIV1/100/100.04.true.fas.viralmsa/100.04.true.fas.aln
