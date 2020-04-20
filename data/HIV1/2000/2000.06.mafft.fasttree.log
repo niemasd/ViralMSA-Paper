@@ -1,0 +1,585 @@
+FastTree Version 2.1.11 Double precision (No SSE3)
+Alignment: standard input
+Nucleotide distances: Jukes-Cantor Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Generalized Time-Reversible, CAT approximation with 20 rate categories
+      0.13 seconds: Identified unique sequences
+Ignored unknown character b (seen 3 times)
+Ignored unknown character d (seen 11 times)
+Ignored unknown character h (seen 11 times)
+Ignored unknown character k (seen 394 times)
+Ignored unknown character m (seen 628 times)
+Ignored unknown character n (seen 432 times)
+Ignored unknown character r (seen 3800 times)
+Ignored unknown character s (seen 170 times)
+Ignored unknown character v (seen 9 times)
+Ignored unknown character w (seen 439 times)
+Ignored unknown character y (seen 1679 times)
+     13.32 seconds: Top hits for    347 of   2000 seqs (at seed    100)
+     21.14 seconds: Top hits for    577 of   2000 seqs (at seed    200)
+     28.13 seconds: Top hits for    692 of   2000 seqs (at seed    300)
+     35.92 seconds: Top hits for    790 of   2000 seqs (at seed    400)
+     42.87 seconds: Top hits for    889 of   2000 seqs (at seed    500)
+     51.82 seconds: Top hits for    980 of   2000 seqs (at seed    600)
+     60.02 seconds: Top hits for   1059 of   2000 seqs (at seed    700)
+     66.57 seconds: Top hits for   1132 of   2000 seqs (at seed    800)
+     74.09 seconds: Top hits for   1210 of   2000 seqs (at seed    900)
+     81.92 seconds: Top hits for   1282 of   2000 seqs (at seed   1000)
+     89.62 seconds: Top hits for   1361 of   2000 seqs (at seed   1100)
+     96.69 seconds: Top hits for   1436 of   2000 seqs (at seed   1200)
+    103.06 seconds: Top hits for   1493 of   2000 seqs (at seed   1300)
+    110.33 seconds: Top hits for   1568 of   2000 seqs (at seed   1400)
+    118.58 seconds: Top hits for   1647 of   2000 seqs (at seed   1500)
+    126.00 seconds: Top hits for   1717 of   2000 seqs (at seed   1600)
+    134.90 seconds: Top hits for   1799 of   2000 seqs (at seed   1700)
+    141.93 seconds: Top hits for   1863 of   2000 seqs (at seed   1800)
+    149.11 seconds: Top hits for   1929 of   2000 seqs (at seed   1900)
+    156.29 seconds: Checking top hits for      1 of   2000 seqs
+    161.59 seconds: Joined    100 of   1997
+    174.54 seconds: Joined    200 of   1997
+    184.06 seconds: Joined    300 of   1997
+    189.49 seconds: Joined    400 of   1997
+    197.81 seconds: Joined    500 of   1997
+    207.52 seconds: Joined    600 of   1997
+    213.78 seconds: Joined    700 of   1997
+    224.36 seconds: Joined    800 of   1997
+    235.47 seconds: Joined    900 of   1997
+    243.88 seconds: Joined   1000 of   1997
+    248.67 seconds: Joined   1100 of   1997
+    252.38 seconds: Joined   1200 of   1997
+    256.77 seconds: Joined   1300 of   1997
+    262.19 seconds: Joined   1400 of   1997
+    267.63 seconds: Joined   1500 of   1997
+    272.51 seconds: Joined   1600 of   1997
+    279.10 seconds: Joined   1700 of   1997
+    286.49 seconds: Joined   1800 of   1997
+    293.71 seconds: Joined   1900 of   1997
+Initial topology in 299.05 seconds
+Refining topology: 44 rounds ME-NNIs, 2 rounds ME-SPRs, 22 rounds ML-NNIs
+    299.04 seconds: ME NNI round 1 of 44, 1 of 1998 splits
+    299.39 seconds: ME NNI round 1 of 44, 101 of 1998 splits, 14 changes (max delta 0.002)
+    299.73 seconds: ME NNI round 1 of 44, 201 of 1998 splits, 31 changes (max delta 0.003)
+    300.05 seconds: ME NNI round 1 of 44, 301 of 1998 splits, 37 changes (max delta 0.003)
+    300.47 seconds: ME NNI round 1 of 44, 401 of 1998 splits, 50 changes (max delta 0.003)
+    300.81 seconds: ME NNI round 1 of 44, 501 of 1998 splits, 66 changes (max delta 0.003)
+    301.15 seconds: ME NNI round 1 of 44, 601 of 1998 splits, 98 changes (max delta 0.003)
+    301.47 seconds: ME NNI round 1 of 44, 701 of 1998 splits, 109 changes (max delta 0.003)
+    301.82 seconds: ME NNI round 1 of 44, 801 of 1998 splits, 130 changes (max delta 0.006)
+    302.23 seconds: ME NNI round 1 of 44, 901 of 1998 splits, 153 changes (max delta 0.006)
+    302.62 seconds: ME NNI round 1 of 44, 1001 of 1998 splits, 187 changes (max delta 0.006)
+    303.01 seconds: ME NNI round 1 of 44, 1101 of 1998 splits, 216 changes (max delta 0.006)
+    303.40 seconds: ME NNI round 1 of 44, 1201 of 1998 splits, 234 changes (max delta 0.006)
+    303.77 seconds: ME NNI round 1 of 44, 1301 of 1998 splits, 253 changes (max delta 0.006)
+    304.16 seconds: ME NNI round 1 of 44, 1401 of 1998 splits, 290 changes (max delta 0.007)
+    304.52 seconds: ME NNI round 1 of 44, 1501 of 1998 splits, 318 changes (max delta 0.007)
+    304.88 seconds: ME NNI round 1 of 44, 1601 of 1998 splits, 352 changes (max delta 0.007)
+    305.24 seconds: ME NNI round 1 of 44, 1701 of 1998 splits, 377 changes (max delta 0.009)
+    305.57 seconds: ME NNI round 1 of 44, 1801 of 1998 splits, 399 changes (max delta 0.009)
+    305.89 seconds: ME NNI round 1 of 44, 1901 of 1998 splits, 406 changes (max delta 0.009)
+    306.21 seconds: ME NNI round 2 of 44, 1 of 1998 splits
+    306.54 seconds: ME NNI round 2 of 44, 101 of 1998 splits, 2 changes (max delta 0.000)
+    306.87 seconds: ME NNI round 2 of 44, 201 of 1998 splits, 5 changes (max delta 0.003)
+    307.21 seconds: ME NNI round 2 of 44, 301 of 1998 splits, 10 changes (max delta 0.003)
+    307.57 seconds: ME NNI round 2 of 44, 401 of 1998 splits, 25 changes (max delta 0.003)
+    307.94 seconds: ME NNI round 2 of 44, 501 of 1998 splits, 47 changes (max delta 0.008)
+    308.31 seconds: ME NNI round 2 of 44, 601 of 1998 splits, 62 changes (max delta 0.008)
+    308.69 seconds: ME NNI round 2 of 44, 701 of 1998 splits, 84 changes (max delta 0.008)
+    309.04 seconds: ME NNI round 2 of 44, 801 of 1998 splits, 104 changes (max delta 0.008)
+    309.42 seconds: ME NNI round 2 of 44, 901 of 1998 splits, 128 changes (max delta 0.008)
+    309.82 seconds: ME NNI round 2 of 44, 1001 of 1998 splits, 155 changes (max delta 0.008)
+    310.17 seconds: ME NNI round 2 of 44, 1101 of 1998 splits, 174 changes (max delta 0.008)
+    310.50 seconds: ME NNI round 2 of 44, 1201 of 1998 splits, 186 changes (max delta 0.008)
+    310.84 seconds: ME NNI round 2 of 44, 1301 of 1998 splits, 190 changes (max delta 0.008)
+    311.17 seconds: ME NNI round 2 of 44, 1401 of 1998 splits, 198 changes (max delta 0.008)
+    311.50 seconds: ME NNI round 2 of 44, 1501 of 1998 splits, 205 changes (max delta 0.008)
+    311.83 seconds: ME NNI round 2 of 44, 1601 of 1998 splits, 219 changes (max delta 0.008)
+    312.18 seconds: ME NNI round 2 of 44, 1701 of 1998 splits, 230 changes (max delta 0.008)
+    312.51 seconds: ME NNI round 2 of 44, 1801 of 1998 splits, 232 changes (max delta 0.008)
+    312.84 seconds: ME NNI round 2 of 44, 1901 of 1998 splits, 234 changes (max delta 0.008)
+    313.14 seconds: ME NNI round 3 of 44, 1 of 1998 splits
+    313.49 seconds: ME NNI round 3 of 44, 101 of 1998 splits, 1 changes (max delta 0.000)
+    313.85 seconds: ME NNI round 3 of 44, 201 of 1998 splits, 5 changes (max delta 0.002)
+    314.19 seconds: ME NNI round 3 of 44, 301 of 1998 splits, 17 changes (max delta 0.002)
+    314.55 seconds: ME NNI round 3 of 44, 401 of 1998 splits, 30 changes (max delta 0.002)
+    314.90 seconds: ME NNI round 3 of 44, 501 of 1998 splits, 39 changes (max delta 0.004)
+    315.25 seconds: ME NNI round 3 of 44, 601 of 1998 splits, 49 changes (max delta 0.004)
+    315.64 seconds: ME NNI round 3 of 44, 701 of 1998 splits, 69 changes (max delta 0.004)
+    316.02 seconds: ME NNI round 3 of 44, 801 of 1998 splits, 83 changes (max delta 0.004)
+    316.39 seconds: ME NNI round 3 of 44, 901 of 1998 splits, 105 changes (max delta 0.004)
+    316.75 seconds: ME NNI round 3 of 44, 1001 of 1998 splits, 117 changes (max delta 0.004)
+    317.14 seconds: ME NNI round 3 of 44, 1101 of 1998 splits, 144 changes (max delta 0.004)
+    317.51 seconds: ME NNI round 3 of 44, 1201 of 1998 splits, 164 changes (max delta 0.004)
+    317.86 seconds: ME NNI round 3 of 44, 1301 of 1998 splits, 171 changes (max delta 0.004)
+    318.00 seconds: ME NNI round 4 of 44, 1 of 1998 splits
+    318.41 seconds: ME NNI round 4 of 44, 101 of 1998 splits, 1 changes (max delta 0.001)
+    318.83 seconds: ME NNI round 4 of 44, 201 of 1998 splits, 12 changes (max delta 0.003)
+    319.27 seconds: ME NNI round 4 of 44, 301 of 1998 splits, 25 changes (max delta 0.003)
+    319.64 seconds: ME NNI round 4 of 44, 401 of 1998 splits, 34 changes (max delta 0.003)
+    320.01 seconds: ME NNI round 4 of 44, 501 of 1998 splits, 50 changes (max delta 0.003)
+    320.38 seconds: ME NNI round 4 of 44, 601 of 1998 splits, 64 changes (max delta 0.003)
+    320.71 seconds: ME NNI round 4 of 44, 701 of 1998 splits, 76 changes (max delta 0.003)
+    321.06 seconds: ME NNI round 4 of 44, 801 of 1998 splits, 79 changes (max delta 0.003)
+    321.43 seconds: ME NNI round 4 of 44, 901 of 1998 splits, 88 changes (max delta 0.003)
+    321.73 seconds: ME NNI round 5 of 44, 1 of 1998 splits
+    322.15 seconds: ME NNI round 5 of 44, 101 of 1998 splits, 6 changes (max delta 0.001)
+    322.52 seconds: ME NNI round 5 of 44, 201 of 1998 splits, 23 changes (max delta 0.002)
+    322.88 seconds: ME NNI round 5 of 44, 301 of 1998 splits, 34 changes (max delta 0.002)
+    323.23 seconds: ME NNI round 5 of 44, 401 of 1998 splits, 44 changes (max delta 0.003)
+    323.61 seconds: ME NNI round 5 of 44, 501 of 1998 splits, 60 changes (max delta 0.003)
+    324.00 seconds: ME NNI round 5 of 44, 601 of 1998 splits, 64 changes (max delta 0.003)
+    324.39 seconds: ME NNI round 6 of 44, 1 of 1998 splits
+    324.83 seconds: ME NNI round 6 of 44, 101 of 1998 splits, 8 changes (max delta 0.000)
+    325.20 seconds: ME NNI round 6 of 44, 201 of 1998 splits, 23 changes (max delta 0.001)
+    325.58 seconds: ME NNI round 6 of 44, 301 of 1998 splits, 31 changes (max delta 0.001)
+    325.94 seconds: ME NNI round 6 of 44, 401 of 1998 splits, 42 changes (max delta 0.002)
+    326.30 seconds: ME NNI round 6 of 44, 501 of 1998 splits, 47 changes (max delta 0.002)
+    326.82 seconds: ME NNI round 7 of 44, 101 of 1998 splits, 14 changes (max delta 0.003)
+    327.17 seconds: ME NNI round 7 of 44, 201 of 1998 splits, 26 changes (max delta 0.003)
+    327.58 seconds: ME NNI round 7 of 44, 301 of 1998 splits, 33 changes (max delta 0.003)
+    327.88 seconds: ME NNI round 8 of 44, 1 of 1998 splits
+    328.31 seconds: ME NNI round 8 of 44, 101 of 1998 splits, 11 changes (max delta 0.005)
+    328.71 seconds: ME NNI round 8 of 44, 201 of 1998 splits, 21 changes (max delta 0.005)
+    329.04 seconds: ME NNI round 9 of 44, 1 of 1998 splits
+    329.47 seconds: ME NNI round 9 of 44, 101 of 1998 splits, 10 changes (max delta 0.001)
+    329.86 seconds: ME NNI round 9 of 44, 201 of 1998 splits, 20 changes (max delta 0.001)
+    330.02 seconds: ME NNI round 10 of 44, 1 of 1998 splits
+    330.48 seconds: ME NNI round 10 of 44, 101 of 1998 splits, 17 changes (max delta 0.002)
+    330.85 seconds: ME NNI round 10 of 44, 201 of 1998 splits, 20 changes (max delta 0.002)
+    331.33 seconds: ME NNI round 11 of 44, 101 of 1998 splits, 11 changes (max delta 0.002)
+    331.70 seconds: ME NNI round 12 of 44, 1 of 1998 splits
+    332.11 seconds: ME NNI round 12 of 44, 101 of 1998 splits, 8 changes (max delta 0.001)
+    332.42 seconds: ME NNI round 13 of 44, 1 of 1998 splits
+    332.85 seconds: ME NNI round 13 of 44, 101 of 1998 splits, 9 changes (max delta 0.002)
+    333.06 seconds: ME NNI round 14 of 44, 1 of 1998 splits
+    333.53 seconds: ME NNI round 14 of 44, 101 of 1998 splits, 8 changes (max delta 0.001)
+    339.82 seconds: SPR round   1 of   2, 101 of 3998 nodes
+    345.61 seconds: SPR round   1 of   2, 201 of 3998 nodes
+    352.24 seconds: SPR round   1 of   2, 301 of 3998 nodes
+    358.54 seconds: SPR round   1 of   2, 401 of 3998 nodes
+    365.99 seconds: SPR round   1 of   2, 501 of 3998 nodes
+    373.75 seconds: SPR round   1 of   2, 601 of 3998 nodes
+    380.75 seconds: SPR round   1 of   2, 701 of 3998 nodes
+    388.27 seconds: SPR round   1 of   2, 801 of 3998 nodes
+    394.92 seconds: SPR round   1 of   2, 901 of 3998 nodes
+    400.86 seconds: SPR round   1 of   2, 1001 of 3998 nodes
+    406.43 seconds: SPR round   1 of   2, 1101 of 3998 nodes
+    413.16 seconds: SPR round   1 of   2, 1201 of 3998 nodes
+    418.77 seconds: SPR round   1 of   2, 1301 of 3998 nodes
+    425.75 seconds: SPR round   1 of   2, 1401 of 3998 nodes
+    432.65 seconds: SPR round   1 of   2, 1501 of 3998 nodes
+    438.62 seconds: SPR round   1 of   2, 1601 of 3998 nodes
+    445.08 seconds: SPR round   1 of   2, 1701 of 3998 nodes
+    451.85 seconds: SPR round   1 of   2, 1801 of 3998 nodes
+    459.80 seconds: SPR round   1 of   2, 1901 of 3998 nodes
+    466.29 seconds: SPR round   1 of   2, 2001 of 3998 nodes
+    472.04 seconds: SPR round   1 of   2, 2101 of 3998 nodes
+    478.34 seconds: SPR round   1 of   2, 2201 of 3998 nodes
+    483.88 seconds: SPR round   1 of   2, 2301 of 3998 nodes
+    489.51 seconds: SPR round   1 of   2, 2401 of 3998 nodes
+    495.81 seconds: SPR round   1 of   2, 2501 of 3998 nodes
+    503.14 seconds: SPR round   1 of   2, 2601 of 3998 nodes
+    509.33 seconds: SPR round   1 of   2, 2701 of 3998 nodes
+    515.48 seconds: SPR round   1 of   2, 2801 of 3998 nodes
+    522.14 seconds: SPR round   1 of   2, 2901 of 3998 nodes
+    528.72 seconds: SPR round   1 of   2, 3001 of 3998 nodes
+    534.89 seconds: SPR round   1 of   2, 3101 of 3998 nodes
+    541.69 seconds: SPR round   1 of   2, 3201 of 3998 nodes
+    547.78 seconds: SPR round   1 of   2, 3301 of 3998 nodes
+    554.14 seconds: SPR round   1 of   2, 3401 of 3998 nodes
+    560.84 seconds: SPR round   1 of   2, 3501 of 3998 nodes
+    567.98 seconds: SPR round   1 of   2, 3601 of 3998 nodes
+    573.68 seconds: SPR round   1 of   2, 3701 of 3998 nodes
+    580.06 seconds: SPR round   1 of   2, 3801 of 3998 nodes
+    586.75 seconds: SPR round   1 of   2, 3901 of 3998 nodes
+    594.08 seconds: ME NNI round 15 of 44, 1 of 1998 splits
+    594.42 seconds: ME NNI round 15 of 44, 101 of 1998 splits, 0 changes
+    594.74 seconds: ME NNI round 15 of 44, 201 of 1998 splits, 0 changes
+    595.05 seconds: ME NNI round 15 of 44, 301 of 1998 splits, 0 changes
+    595.38 seconds: ME NNI round 15 of 44, 401 of 1998 splits, 1 changes (max delta 0.000)
+    595.75 seconds: ME NNI round 15 of 44, 501 of 1998 splits, 7 changes (max delta 0.001)
+    596.10 seconds: ME NNI round 15 of 44, 601 of 1998 splits, 15 changes (max delta 0.001)
+    596.48 seconds: ME NNI round 15 of 44, 701 of 1998 splits, 19 changes (max delta 0.001)
+    596.88 seconds: ME NNI round 15 of 44, 801 of 1998 splits, 27 changes (max delta 0.001)
+    597.21 seconds: ME NNI round 15 of 44, 901 of 1998 splits, 31 changes (max delta 0.001)
+    597.61 seconds: ME NNI round 15 of 44, 1001 of 1998 splits, 35 changes (max delta 0.001)
+    597.93 seconds: ME NNI round 15 of 44, 1101 of 1998 splits, 36 changes (max delta 0.001)
+    598.33 seconds: ME NNI round 15 of 44, 1201 of 1998 splits, 40 changes (max delta 0.001)
+    598.67 seconds: ME NNI round 15 of 44, 1301 of 1998 splits, 41 changes (max delta 0.001)
+    598.96 seconds: ME NNI round 15 of 44, 1401 of 1998 splits, 45 changes (max delta 0.001)
+    599.26 seconds: ME NNI round 15 of 44, 1501 of 1998 splits, 45 changes (max delta 0.001)
+    599.56 seconds: ME NNI round 15 of 44, 1601 of 1998 splits, 49 changes (max delta 0.001)
+    599.88 seconds: ME NNI round 15 of 44, 1701 of 1998 splits, 50 changes (max delta 0.001)
+    600.16 seconds: ME NNI round 15 of 44, 1801 of 1998 splits, 51 changes (max delta 0.001)
+    600.46 seconds: ME NNI round 15 of 44, 1901 of 1998 splits, 51 changes (max delta 0.001)
+    600.76 seconds: ME NNI round 16 of 44, 1 of 1998 splits
+    601.06 seconds: ME NNI round 16 of 44, 101 of 1998 splits, 0 changes
+    601.38 seconds: ME NNI round 16 of 44, 201 of 1998 splits, 0 changes
+    601.68 seconds: ME NNI round 16 of 44, 301 of 1998 splits, 0 changes
+    602.01 seconds: ME NNI round 16 of 44, 401 of 1998 splits, 0 changes
+    602.32 seconds: ME NNI round 16 of 44, 501 of 1998 splits, 2 changes (max delta 0.000)
+    602.62 seconds: ME NNI round 16 of 44, 601 of 1998 splits, 2 changes (max delta 0.000)
+    602.93 seconds: ME NNI round 16 of 44, 701 of 1998 splits, 3 changes (max delta 0.000)
+    603.25 seconds: ME NNI round 16 of 44, 801 of 1998 splits, 6 changes (max delta 0.000)
+    603.63 seconds: ME NNI round 16 of 44, 901 of 1998 splits, 6 changes (max delta 0.000)
+    604.00 seconds: ME NNI round 16 of 44, 1001 of 1998 splits, 7 changes (max delta 0.000)
+    604.36 seconds: ME NNI round 16 of 44, 1101 of 1998 splits, 11 changes (max delta 0.000)
+    604.72 seconds: ME NNI round 16 of 44, 1201 of 1998 splits, 11 changes (max delta 0.000)
+    605.04 seconds: ME NNI round 16 of 44, 1301 of 1998 splits, 19 changes (max delta 0.001)
+    605.35 seconds: ME NNI round 16 of 44, 1401 of 1998 splits, 26 changes (max delta 0.001)
+    605.65 seconds: ME NNI round 16 of 44, 1501 of 1998 splits, 26 changes (max delta 0.001)
+    606.01 seconds: ME NNI round 16 of 44, 1601 of 1998 splits, 26 changes (max delta 0.001)
+    606.33 seconds: ME NNI round 16 of 44, 1701 of 1998 splits, 28 changes (max delta 0.001)
+    606.68 seconds: ME NNI round 16 of 44, 1801 of 1998 splits, 31 changes (max delta 0.001)
+    606.99 seconds: ME NNI round 16 of 44, 1901 of 1998 splits, 31 changes (max delta 0.001)
+    607.29 seconds: ME NNI round 17 of 44, 1 of 1998 splits
+    607.72 seconds: ME NNI round 17 of 44, 101 of 1998 splits, 11 changes (max delta 0.000)
+    608.09 seconds: ME NNI round 17 of 44, 201 of 1998 splits, 19 changes (max delta 0.000)
+    608.44 seconds: ME NNI round 17 of 44, 301 of 1998 splits, 24 changes (max delta 0.001)
+    608.64 seconds: ME NNI round 18 of 44, 1 of 1998 splits
+    609.04 seconds: ME NNI round 18 of 44, 101 of 1998 splits, 5 changes (max delta 0.001)
+    609.44 seconds: ME NNI round 18 of 44, 201 of 1998 splits, 11 changes (max delta 0.001)
+    609.68 seconds: ME NNI round 19 of 44, 1 of 1998 splits
+    610.09 seconds: ME NNI round 19 of 44, 101 of 1998 splits, 3 changes (max delta 0.001)
+    610.35 seconds: ME NNI round 20 of 44, 1 of 1998 splits
+    610.76 seconds: ME NNI round 20 of 44, 101 of 1998 splits, 6 changes (max delta 0.001)
+    611.21 seconds: ME NNI round 22 of 44, 1 of 1998 splits
+    611.60 seconds: ME NNI round 23 of 44, 1 of 1998 splits
+    611.86 seconds: SPR round   2 of   2, 1 of 3998 nodes
+    618.04 seconds: SPR round   2 of   2, 101 of 3998 nodes
+    623.96 seconds: SPR round   2 of   2, 201 of 3998 nodes
+    631.29 seconds: SPR round   2 of   2, 301 of 3998 nodes
+    637.43 seconds: SPR round   2 of   2, 401 of 3998 nodes
+    644.77 seconds: SPR round   2 of   2, 501 of 3998 nodes
+    651.58 seconds: SPR round   2 of   2, 601 of 3998 nodes
+    657.95 seconds: SPR round   2 of   2, 701 of 3998 nodes
+    663.97 seconds: SPR round   2 of   2, 801 of 3998 nodes
+    671.10 seconds: SPR round   2 of   2, 901 of 3998 nodes
+    677.06 seconds: SPR round   2 of   2, 1001 of 3998 nodes
+    682.47 seconds: SPR round   2 of   2, 1101 of 3998 nodes
+    689.10 seconds: SPR round   2 of   2, 1201 of 3998 nodes
+    695.03 seconds: SPR round   2 of   2, 1301 of 3998 nodes
+    700.51 seconds: SPR round   2 of   2, 1401 of 3998 nodes
+    705.88 seconds: SPR round   2 of   2, 1501 of 3998 nodes
+    712.35 seconds: SPR round   2 of   2, 1601 of 3998 nodes
+    718.32 seconds: SPR round   2 of   2, 1701 of 3998 nodes
+    724.65 seconds: SPR round   2 of   2, 1801 of 3998 nodes
+    731.35 seconds: SPR round   2 of   2, 1901 of 3998 nodes
+    736.93 seconds: SPR round   2 of   2, 2001 of 3998 nodes
+    742.98 seconds: SPR round   2 of   2, 2101 of 3998 nodes
+    749.44 seconds: SPR round   2 of   2, 2201 of 3998 nodes
+    755.22 seconds: SPR round   2 of   2, 2301 of 3998 nodes
+    762.29 seconds: SPR round   2 of   2, 2401 of 3998 nodes
+    767.51 seconds: SPR round   2 of   2, 2501 of 3998 nodes
+    773.86 seconds: SPR round   2 of   2, 2601 of 3998 nodes
+    778.85 seconds: SPR round   2 of   2, 2701 of 3998 nodes
+    784.76 seconds: SPR round   2 of   2, 2801 of 3998 nodes
+    790.68 seconds: SPR round   2 of   2, 2901 of 3998 nodes
+    796.48 seconds: SPR round   2 of   2, 3001 of 3998 nodes
+    802.55 seconds: SPR round   2 of   2, 3101 of 3998 nodes
+    808.96 seconds: SPR round   2 of   2, 3201 of 3998 nodes
+    816.02 seconds: SPR round   2 of   2, 3301 of 3998 nodes
+    821.71 seconds: SPR round   2 of   2, 3401 of 3998 nodes
+    828.60 seconds: SPR round   2 of   2, 3501 of 3998 nodes
+    836.63 seconds: SPR round   2 of   2, 3601 of 3998 nodes
+    843.23 seconds: SPR round   2 of   2, 3701 of 3998 nodes
+    850.32 seconds: SPR round   2 of   2, 3801 of 3998 nodes
+    857.43 seconds: SPR round   2 of   2, 3901 of 3998 nodes
+    863.62 seconds: ME NNI round 29 of 44, 1 of 1998 splits
+    863.95 seconds: ME NNI round 29 of 44, 101 of 1998 splits, 0 changes
+    864.27 seconds: ME NNI round 29 of 44, 201 of 1998 splits, 0 changes
+    864.60 seconds: ME NNI round 29 of 44, 301 of 1998 splits, 0 changes
+    864.91 seconds: ME NNI round 29 of 44, 401 of 1998 splits, 0 changes
+    865.26 seconds: ME NNI round 29 of 44, 501 of 1998 splits, 2 changes (max delta 0.001)
+    865.59 seconds: ME NNI round 29 of 44, 601 of 1998 splits, 3 changes (max delta 0.001)
+    865.94 seconds: ME NNI round 29 of 44, 701 of 1998 splits, 4 changes (max delta 0.001)
+    866.29 seconds: ME NNI round 29 of 44, 801 of 1998 splits, 4 changes (max delta 0.001)
+    866.61 seconds: ME NNI round 29 of 44, 901 of 1998 splits, 4 changes (max delta 0.001)
+    866.94 seconds: ME NNI round 29 of 44, 1001 of 1998 splits, 6 changes (max delta 0.001)
+    867.26 seconds: ME NNI round 29 of 44, 1101 of 1998 splits, 6 changes (max delta 0.001)
+    867.63 seconds: ME NNI round 29 of 44, 1201 of 1998 splits, 6 changes (max delta 0.001)
+    867.95 seconds: ME NNI round 29 of 44, 1301 of 1998 splits, 6 changes (max delta 0.001)
+    868.27 seconds: ME NNI round 29 of 44, 1401 of 1998 splits, 6 changes (max delta 0.001)
+    868.60 seconds: ME NNI round 29 of 44, 1501 of 1998 splits, 8 changes (max delta 0.001)
+    868.91 seconds: ME NNI round 29 of 44, 1601 of 1998 splits, 9 changes (max delta 0.001)
+    869.23 seconds: ME NNI round 29 of 44, 1701 of 1998 splits, 10 changes (max delta 0.001)
+    869.55 seconds: ME NNI round 29 of 44, 1801 of 1998 splits, 10 changes (max delta 0.001)
+    869.86 seconds: ME NNI round 29 of 44, 1901 of 1998 splits, 10 changes (max delta 0.001)
+    870.15 seconds: ME NNI round 30 of 44, 1 of 1998 splits
+    870.50 seconds: ME NNI round 30 of 44, 101 of 1998 splits, 0 changes
+    870.82 seconds: ME NNI round 30 of 44, 201 of 1998 splits, 0 changes
+    871.13 seconds: ME NNI round 30 of 44, 301 of 1998 splits, 0 changes
+    871.44 seconds: ME NNI round 30 of 44, 401 of 1998 splits, 0 changes
+    871.79 seconds: ME NNI round 30 of 44, 501 of 1998 splits, 2 changes (max delta 0.001)
+    872.12 seconds: ME NNI round 30 of 44, 601 of 1998 splits, 2 changes (max delta 0.001)
+    872.47 seconds: ME NNI round 30 of 44, 701 of 1998 splits, 4 changes (max delta 0.001)
+    872.81 seconds: ME NNI round 30 of 44, 801 of 1998 splits, 4 changes (max delta 0.001)
+    873.14 seconds: ME NNI round 30 of 44, 901 of 1998 splits, 4 changes (max delta 0.001)
+    873.50 seconds: ME NNI round 30 of 44, 1001 of 1998 splits, 7 changes (max delta 0.001)
+    873.83 seconds: ME NNI round 30 of 44, 1101 of 1998 splits, 7 changes (max delta 0.001)
+    874.18 seconds: ME NNI round 30 of 44, 1201 of 1998 splits, 7 changes (max delta 0.001)
+    874.50 seconds: ME NNI round 30 of 44, 1301 of 1998 splits, 7 changes (max delta 0.001)
+    874.82 seconds: ME NNI round 30 of 44, 1401 of 1998 splits, 7 changes (max delta 0.001)
+    875.14 seconds: ME NNI round 30 of 44, 1501 of 1998 splits, 7 changes (max delta 0.001)
+    875.46 seconds: ME NNI round 30 of 44, 1601 of 1998 splits, 9 changes (max delta 0.001)
+    875.77 seconds: ME NNI round 30 of 44, 1701 of 1998 splits, 10 changes (max delta 0.001)
+    876.09 seconds: ME NNI round 30 of 44, 1801 of 1998 splits, 11 changes (max delta 0.001)
+    876.41 seconds: ME NNI round 30 of 44, 1901 of 1998 splits, 11 changes (max delta 0.001)
+    876.70 seconds: ME NNI round 31 of 44, 1 of 1998 splits
+    877.09 seconds: ME NNI round 31 of 44, 101 of 1998 splits, 1 changes (max delta 0.000)
+    877.24 seconds: ME NNI round 32 of 44, 1 of 1998 splits
+Total branch-length 82.199 after 885.57 sec
+    886.79 seconds: ML Lengths 1 of 1998 splits
+    890.47 seconds: ML Lengths 101 of 1998 splits
+    894.11 seconds: ML Lengths 201 of 1998 splits
+    897.72 seconds: ML Lengths 301 of 1998 splits
+    901.41 seconds: ML Lengths 401 of 1998 splits
+    905.07 seconds: ML Lengths 501 of 1998 splits
+    908.67 seconds: ML Lengths 601 of 1998 splits
+    912.40 seconds: ML Lengths 701 of 1998 splits
+    916.23 seconds: ML Lengths 801 of 1998 splits
+    919.93 seconds: ML Lengths 901 of 1998 splits
+    923.63 seconds: ML Lengths 1001 of 1998 splits
+    927.27 seconds: ML Lengths 1101 of 1998 splits
+    930.96 seconds: ML Lengths 1201 of 1998 splits
+    934.63 seconds: ML Lengths 1301 of 1998 splits
+    938.38 seconds: ML Lengths 1401 of 1998 splits
+    942.15 seconds: ML Lengths 1501 of 1998 splits
+    945.89 seconds: ML Lengths 1601 of 1998 splits
+    949.62 seconds: ML Lengths 1701 of 1998 splits
+    953.39 seconds: ML Lengths 1801 of 1998 splits
+    957.07 seconds: ML Lengths 1901 of 1998 splits
+    960.67 seconds: ML NNI round 1 of 22, 1 of 1998 splits
+    971.17 seconds: ML NNI round 1 of 22, 101 of 1998 splits, 15 changes (max delta 49.938)
+    982.14 seconds: ML NNI round 1 of 22, 201 of 1998 splits, 37 changes (max delta 49.938)
+    992.94 seconds: ML NNI round 1 of 22, 301 of 1998 splits, 53 changes (max delta 49.938)
+   1003.62 seconds: ML NNI round 1 of 22, 401 of 1998 splits, 76 changes (max delta 49.938)
+   1014.81 seconds: ML NNI round 1 of 22, 501 of 1998 splits, 107 changes (max delta 63.565)
+   1025.42 seconds: ML NNI round 1 of 22, 601 of 1998 splits, 127 changes (max delta 63.565)
+   1035.93 seconds: ML NNI round 1 of 22, 701 of 1998 splits, 151 changes (max delta 63.565)
+   1046.71 seconds: ML NNI round 1 of 22, 801 of 1998 splits, 175 changes (max delta 63.565)
+   1057.54 seconds: ML NNI round 1 of 22, 901 of 1998 splits, 210 changes (max delta 63.565)
+   1068.26 seconds: ML NNI round 1 of 22, 1001 of 1998 splits, 231 changes (max delta 63.565)
+   1078.86 seconds: ML NNI round 1 of 22, 1101 of 1998 splits, 253 changes (max delta 63.565)
+   1089.52 seconds: ML NNI round 1 of 22, 1201 of 1998 splits, 276 changes (max delta 63.565)
+   1100.35 seconds: ML NNI round 1 of 22, 1301 of 1998 splits, 307 changes (max delta 63.565)
+   1111.28 seconds: ML NNI round 1 of 22, 1401 of 1998 splits, 331 changes (max delta 73.712)
+   1121.64 seconds: ML NNI round 1 of 22, 1501 of 1998 splits, 352 changes (max delta 73.712)
+   1132.25 seconds: ML NNI round 1 of 22, 1601 of 1998 splits, 377 changes (max delta 73.712)
+   1143.22 seconds: ML NNI round 1 of 22, 1701 of 1998 splits, 399 changes (max delta 73.712)
+   1154.28 seconds: ML NNI round 1 of 22, 1801 of 1998 splits, 421 changes (max delta 73.712)
+   1165.33 seconds: ML NNI round 1 of 22, 1901 of 1998 splits, 440 changes (max delta 73.712)
+ML-NNI round 1: LogLk = -4483096.902 NNIs 468 max delta 108.84 Time 1177.87
+   1177.94 seconds: Optimizing GTR model, step 1 of 12
+   1210.09 seconds: Optimizing GTR model, step 2 of 12
+   1245.83 seconds: Optimizing GTR model, step 3 of 12
+   1285.01 seconds: Optimizing GTR model, step 4 of 12
+   1318.96 seconds: Optimizing GTR model, step 5 of 12
+   1347.59 seconds: Optimizing GTR model, step 6 of 12
+   1376.18 seconds: Optimizing GTR model, step 7 of 12
+   1395.54 seconds: Optimizing GTR model, step 8 of 12
+   1414.26 seconds: Optimizing GTR model, step 9 of 12
+   1430.96 seconds: Optimizing GTR model, step 10 of 12
+   1446.39 seconds: Optimizing GTR model, step 11 of 12
+   1461.25 seconds: Optimizing GTR model, step 12 of 12
+GTR Frequencies: 0.3633 0.1759 0.2391 0.2217
+GTR rates(ac ag at cg ct gt) 1.8638 4.3192 0.9324 0.8978 5.1715 1.0000
+   1476.60 seconds: ML Lengths 1 of 1998 splits
+   1478.79 seconds: ML Lengths 101 of 1998 splits
+   1480.99 seconds: ML Lengths 201 of 1998 splits
+   1483.16 seconds: ML Lengths 301 of 1998 splits
+   1485.35 seconds: ML Lengths 401 of 1998 splits
+   1487.51 seconds: ML Lengths 501 of 1998 splits
+   1489.68 seconds: ML Lengths 601 of 1998 splits
+   1491.90 seconds: ML Lengths 701 of 1998 splits
+   1494.07 seconds: ML Lengths 801 of 1998 splits
+   1496.19 seconds: ML Lengths 901 of 1998 splits
+   1498.34 seconds: ML Lengths 1001 of 1998 splits
+   1500.48 seconds: ML Lengths 1101 of 1998 splits
+   1502.60 seconds: ML Lengths 1201 of 1998 splits
+   1504.75 seconds: ML Lengths 1301 of 1998 splits
+   1506.93 seconds: ML Lengths 1401 of 1998 splits
+   1509.05 seconds: ML Lengths 1501 of 1998 splits
+   1511.16 seconds: ML Lengths 1601 of 1998 splits
+   1513.31 seconds: ML Lengths 1701 of 1998 splits
+   1515.46 seconds: ML Lengths 1801 of 1998 splits
+   1517.52 seconds: ML Lengths 1901 of 1998 splits
+   1521.09 seconds: Site likelihoods with rate category 1 of 20
+   1522.68 seconds: Site likelihoods with rate category 2 of 20
+   1524.28 seconds: Site likelihoods with rate category 3 of 20
+   1525.87 seconds: Site likelihoods with rate category 4 of 20
+   1527.46 seconds: Site likelihoods with rate category 5 of 20
+   1529.07 seconds: Site likelihoods with rate category 6 of 20
+   1530.67 seconds: Site likelihoods with rate category 7 of 20
+   1532.28 seconds: Site likelihoods with rate category 8 of 20
+   1533.89 seconds: Site likelihoods with rate category 9 of 20
+   1535.49 seconds: Site likelihoods with rate category 10 of 20
+   1537.09 seconds: Site likelihoods with rate category 11 of 20
+   1538.67 seconds: Site likelihoods with rate category 12 of 20
+   1540.27 seconds: Site likelihoods with rate category 13 of 20
+   1541.85 seconds: Site likelihoods with rate category 14 of 20
+   1543.44 seconds: Site likelihoods with rate category 15 of 20
+   1545.03 seconds: Site likelihoods with rate category 16 of 20
+   1546.64 seconds: Site likelihoods with rate category 17 of 20
+   1548.23 seconds: Site likelihoods with rate category 18 of 20
+   1549.84 seconds: Site likelihoods with rate category 19 of 20
+   1551.45 seconds: Site likelihoods with rate category 20 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 1.091 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+   1553.76 seconds: ML NNI round 2 of 22, 1 of 1998 splits
+   1558.28 seconds: ML NNI round 2 of 22, 101 of 1998 splits, 10 changes (max delta 10.291)
+   1564.14 seconds: ML NNI round 2 of 22, 201 of 1998 splits, 32 changes (max delta 10.291)
+   1568.11 seconds: ML NNI round 2 of 22, 301 of 1998 splits, 43 changes (max delta 13.765)
+   1573.99 seconds: ML NNI round 2 of 22, 401 of 1998 splits, 62 changes (max delta 13.765)
+   1579.30 seconds: ML NNI round 2 of 22, 501 of 1998 splits, 80 changes (max delta 13.765)
+   1585.27 seconds: ML NNI round 2 of 22, 601 of 1998 splits, 96 changes (max delta 13.981)
+   1589.39 seconds: ML NNI round 2 of 22, 701 of 1998 splits, 107 changes (max delta 13.981)
+   1594.76 seconds: ML NNI round 2 of 22, 801 of 1998 splits, 124 changes (max delta 21.670)
+   1599.62 seconds: ML NNI round 2 of 22, 901 of 1998 splits, 144 changes (max delta 21.670)
+   1605.36 seconds: ML NNI round 2 of 22, 1001 of 1998 splits, 162 changes (max delta 21.670)
+   1610.86 seconds: ML NNI round 2 of 22, 1101 of 1998 splits, 179 changes (max delta 33.120)
+   1615.61 seconds: ML NNI round 2 of 22, 1201 of 1998 splits, 198 changes (max delta 33.120)
+   1620.97 seconds: ML NNI round 2 of 22, 1301 of 1998 splits, 214 changes (max delta 33.120)
+   1625.88 seconds: ML NNI round 2 of 22, 1401 of 1998 splits, 224 changes (max delta 33.120)
+   1631.08 seconds: ML NNI round 2 of 22, 1501 of 1998 splits, 240 changes (max delta 33.120)
+   1635.00 seconds: ML NNI round 2 of 22, 1601 of 1998 splits, 250 changes (max delta 33.120)
+   1640.62 seconds: ML NNI round 2 of 22, 1701 of 1998 splits, 266 changes (max delta 33.120)
+   1645.80 seconds: ML NNI round 2 of 22, 1801 of 1998 splits, 283 changes (max delta 33.120)
+   1651.32 seconds: ML NNI round 2 of 22, 1901 of 1998 splits, 298 changes (max delta 33.120)
+ML-NNI round 2: LogLk = -3557804.471 NNIs 318 max delta 33.12 Time 1657.74
+   1657.73 seconds: ML NNI round 3 of 22, 1 of 1998 splits
+   1662.31 seconds: ML NNI round 3 of 22, 101 of 1998 splits, 7 changes (max delta 28.365)
+   1665.93 seconds: ML NNI round 3 of 22, 201 of 1998 splits, 11 changes (max delta 102.093)
+   1670.10 seconds: ML NNI round 3 of 22, 301 of 1998 splits, 16 changes (max delta 102.093)
+   1674.28 seconds: ML NNI round 3 of 22, 401 of 1998 splits, 26 changes (max delta 102.093)
+   1678.51 seconds: ML NNI round 3 of 22, 501 of 1998 splits, 30 changes (max delta 102.093)
+   1682.24 seconds: ML NNI round 3 of 22, 601 of 1998 splits, 38 changes (max delta 102.093)
+   1685.14 seconds: ML NNI round 3 of 22, 701 of 1998 splits, 42 changes (max delta 102.093)
+   1688.74 seconds: ML NNI round 3 of 22, 801 of 1998 splits, 51 changes (max delta 102.093)
+   1692.36 seconds: ML NNI round 3 of 22, 901 of 1998 splits, 60 changes (max delta 102.093)
+   1695.89 seconds: ML NNI round 3 of 22, 1001 of 1998 splits, 62 changes (max delta 102.093)
+   1701.29 seconds: ML NNI round 3 of 22, 1101 of 1998 splits, 69 changes (max delta 102.093)
+   1705.55 seconds: ML NNI round 3 of 22, 1201 of 1998 splits, 81 changes (max delta 102.093)
+   1710.19 seconds: ML NNI round 3 of 22, 1301 of 1998 splits, 92 changes (max delta 102.093)
+   1715.35 seconds: ML NNI round 3 of 22, 1401 of 1998 splits, 99 changes (max delta 102.093)
+   1720.31 seconds: ML NNI round 3 of 22, 1501 of 1998 splits, 110 changes (max delta 102.093)
+ML-NNI round 3: LogLk = -3556280.918 NNIs 125 max delta 102.09 Time 1726.36
+   1726.36 seconds: ML NNI round 4 of 22, 1 of 1998 splits
+   1730.26 seconds: ML NNI round 4 of 22, 101 of 1998 splits, 4 changes (max delta 2.678)
+   1733.82 seconds: ML NNI round 4 of 22, 201 of 1998 splits, 6 changes (max delta 2.678)
+   1737.18 seconds: ML NNI round 4 of 22, 301 of 1998 splits, 11 changes (max delta 7.545)
+   1740.11 seconds: ML NNI round 4 of 22, 401 of 1998 splits, 16 changes (max delta 7.851)
+   1742.48 seconds: ML NNI round 4 of 22, 501 of 1998 splits, 22 changes (max delta 7.851)
+   1745.15 seconds: ML NNI round 4 of 22, 601 of 1998 splits, 25 changes (max delta 9.129)
+   1747.51 seconds: ML NNI round 4 of 22, 701 of 1998 splits, 31 changes (max delta 13.448)
+   1749.57 seconds: ML NNI round 4 of 22, 801 of 1998 splits, 35 changes (max delta 13.448)
+   1752.48 seconds: ML NNI round 4 of 22, 901 of 1998 splits, 38 changes (max delta 13.448)
+   1755.73 seconds: ML NNI round 4 of 22, 1001 of 1998 splits, 42 changes (max delta 13.448)
+   1759.29 seconds: ML NNI round 4 of 22, 1101 of 1998 splits, 47 changes (max delta 13.448)
+ML-NNI round 4: LogLk = -3555842.862 NNIs 50 max delta 13.45 Time 1760.79
+   1760.79 seconds: ML NNI round 5 of 22, 1 of 1998 splits
+   1764.15 seconds: ML NNI round 5 of 22, 101 of 1998 splits, 5 changes (max delta 16.750)
+   1767.26 seconds: ML NNI round 5 of 22, 201 of 1998 splits, 7 changes (max delta 16.750)
+   1769.40 seconds: ML NNI round 5 of 22, 301 of 1998 splits, 8 changes (max delta 16.750)
+   1772.21 seconds: ML NNI round 5 of 22, 401 of 1998 splits, 11 changes (max delta 16.750)
+   1774.07 seconds: ML NNI round 5 of 22, 501 of 1998 splits, 12 changes (max delta 16.750)
+   1777.34 seconds: ML NNI round 5 of 22, 601 of 1998 splits, 14 changes (max delta 16.750)
+ML-NNI round 5: LogLk = -3555622.681 NNIs 19 max delta 16.75 Time 1779.55
+   1779.54 seconds: ML NNI round 6 of 22, 1 of 1998 splits
+   1782.44 seconds: ML NNI round 6 of 22, 101 of 1998 splits, 1 changes (max delta 0.389)
+   1784.07 seconds: ML NNI round 6 of 22, 201 of 1998 splits, 4 changes (max delta 7.226)
+   1785.61 seconds: ML NNI round 6 of 22, 301 of 1998 splits, 4 changes (max delta 7.226)
+ML-NNI round 6: LogLk = -3555591.001 NNIs 9 max delta 7.23 Time 1788.35
+   1788.34 seconds: ML NNI round 7 of 22, 1 of 1998 splits
+   1790.32 seconds: ML NNI round 7 of 22, 101 of 1998 splits, 0 changes
+ML-NNI round 7: LogLk = -3555589.601 NNIs 1 max delta 0.77 Time 1792.37
+   1792.36 seconds: ML NNI round 8 of 22, 1 of 1998 splits
+ML-NNI round 8: LogLk = -3555589.492 NNIs 0 max delta 0.00 Time 1793.72
+Turning off heuristics for final round of ML NNIs (converged)
+   1793.71 seconds: ML NNI round 9 of 22, 1 of 1998 splits
+   1800.96 seconds: ML NNI round 9 of 22, 101 of 1998 splits, 5 changes (max delta 20.750)
+   1808.42 seconds: ML NNI round 9 of 22, 201 of 1998 splits, 8 changes (max delta 20.750)
+   1815.65 seconds: ML NNI round 9 of 22, 301 of 1998 splits, 13 changes (max delta 20.750)
+   1822.87 seconds: ML NNI round 9 of 22, 401 of 1998 splits, 17 changes (max delta 20.750)
+   1829.98 seconds: ML NNI round 9 of 22, 501 of 1998 splits, 20 changes (max delta 20.750)
+   1837.24 seconds: ML NNI round 9 of 22, 601 of 1998 splits, 23 changes (max delta 20.750)
+   1843.95 seconds: ML NNI round 9 of 22, 701 of 1998 splits, 29 changes (max delta 20.750)
+   1850.70 seconds: ML NNI round 9 of 22, 801 of 1998 splits, 35 changes (max delta 20.750)
+   1857.66 seconds: ML NNI round 9 of 22, 901 of 1998 splits, 36 changes (max delta 20.750)
+   1864.55 seconds: ML NNI round 9 of 22, 1001 of 1998 splits, 38 changes (max delta 20.750)
+   1871.26 seconds: ML NNI round 9 of 22, 1101 of 1998 splits, 42 changes (max delta 20.750)
+   1878.35 seconds: ML NNI round 9 of 22, 1201 of 1998 splits, 48 changes (max delta 20.750)
+   1885.26 seconds: ML NNI round 9 of 22, 1301 of 1998 splits, 53 changes (max delta 20.750)
+   1892.51 seconds: ML NNI round 9 of 22, 1401 of 1998 splits, 60 changes (max delta 65.542)
+   1899.25 seconds: ML NNI round 9 of 22, 1501 of 1998 splits, 70 changes (max delta 65.542)
+   1906.42 seconds: ML NNI round 9 of 22, 1601 of 1998 splits, 73 changes (max delta 65.542)
+   1913.93 seconds: ML NNI round 9 of 22, 1701 of 1998 splits, 80 changes (max delta 65.542)
+   1921.35 seconds: ML NNI round 9 of 22, 1801 of 1998 splits, 86 changes (max delta 65.542)
+   1928.88 seconds: ML NNI round 9 of 22, 1901 of 1998 splits, 93 changes (max delta 65.542)
+ML-NNI round 9: LogLk = -3552113.441 NNIs 94 max delta 65.54 Time 1936.35 (final)
+   1936.34 seconds: ML Lengths 1 of 1998 splits
+   1938.12 seconds: ML Lengths 101 of 1998 splits
+   1939.89 seconds: ML Lengths 201 of 1998 splits
+   1941.65 seconds: ML Lengths 301 of 1998 splits
+   1943.41 seconds: ML Lengths 401 of 1998 splits
+   1945.18 seconds: ML Lengths 501 of 1998 splits
+   1946.94 seconds: ML Lengths 601 of 1998 splits
+   1948.71 seconds: ML Lengths 701 of 1998 splits
+   1950.46 seconds: ML Lengths 801 of 1998 splits
+   1952.23 seconds: ML Lengths 901 of 1998 splits
+   1954.02 seconds: ML Lengths 1001 of 1998 splits
+   1955.79 seconds: ML Lengths 1101 of 1998 splits
+   1957.57 seconds: ML Lengths 1201 of 1998 splits
+   1959.35 seconds: ML Lengths 1301 of 1998 splits
+   1961.13 seconds: ML Lengths 1401 of 1998 splits
+   1962.90 seconds: ML Lengths 1501 of 1998 splits
+   1964.68 seconds: ML Lengths 1601 of 1998 splits
+   1966.48 seconds: ML Lengths 1701 of 1998 splits
+   1968.27 seconds: ML Lengths 1801 of 1998 splits
+   1970.05 seconds: ML Lengths 1901 of 1998 splits
+Optimize all lengths: LogLk = -3552079.878 Time 1972.15
+   1982.73 seconds: ML split tests for    100 of   1997 internal splits
+   1993.12 seconds: ML split tests for    200 of   1997 internal splits
+   2003.32 seconds: ML split tests for    300 of   1997 internal splits
+   2013.92 seconds: ML split tests for    400 of   1997 internal splits
+   2024.46 seconds: ML split tests for    500 of   1997 internal splits
+   2034.85 seconds: ML split tests for    600 of   1997 internal splits
+   2045.19 seconds: ML split tests for    700 of   1997 internal splits
+   2056.15 seconds: ML split tests for    800 of   1997 internal splits
+   2066.20 seconds: ML split tests for    900 of   1997 internal splits
+   2076.33 seconds: ML split tests for   1000 of   1997 internal splits
+   2086.48 seconds: ML split tests for   1100 of   1997 internal splits
+   2096.64 seconds: ML split tests for   1200 of   1997 internal splits
+   2106.97 seconds: ML split tests for   1300 of   1997 internal splits
+   2116.94 seconds: ML split tests for   1400 of   1997 internal splits
+   2127.36 seconds: ML split tests for   1500 of   1997 internal splits
+   2137.95 seconds: ML split tests for   1600 of   1997 internal splits
+   2148.38 seconds: ML split tests for   1700 of   1997 internal splits
+   2158.94 seconds: ML split tests for   1800 of   1997 internal splits
+   2169.25 seconds: ML split tests for   1900 of   1997 internal splits
+   2180.67 seconds: Site likelihoods with rate category 1 of 20
+   2182.15 seconds: Site likelihoods with rate category 2 of 20
+   2183.66 seconds: Site likelihoods with rate category 3 of 20
+   2185.13 seconds: Site likelihoods with rate category 4 of 20
+   2186.60 seconds: Site likelihoods with rate category 5 of 20
+   2188.09 seconds: Site likelihoods with rate category 6 of 20
+   2189.57 seconds: Site likelihoods with rate category 7 of 20
+   2191.05 seconds: Site likelihoods with rate category 8 of 20
+   2192.52 seconds: Site likelihoods with rate category 9 of 20
+   2194.02 seconds: Site likelihoods with rate category 10 of 20
+   2195.47 seconds: Site likelihoods with rate category 11 of 20
+   2196.92 seconds: Site likelihoods with rate category 12 of 20
+   2198.36 seconds: Site likelihoods with rate category 13 of 20
+   2199.83 seconds: Site likelihoods with rate category 14 of 20
+   2201.27 seconds: Site likelihoods with rate category 15 of 20
+   2202.72 seconds: Site likelihoods with rate category 16 of 20
+   2204.20 seconds: Site likelihoods with rate category 17 of 20
+   2205.66 seconds: Site likelihoods with rate category 18 of 20
+   2207.13 seconds: Site likelihoods with rate category 19 of 20
+   2208.60 seconds: Site likelihoods with rate category 20 of 20
+   2210.05 seconds: Optimizing alpha round 2
+   2210.24 seconds: Optimizing alpha round 3
+   2210.43 seconds: Optimizing alpha round 4
+Gamma(20) LogLk = -3569235.394 alpha = 0.308 rescaling lengths by 3.043
+Total time: 2210.62 seconds Unique: 2000/2000 Bad splits: 24/1997 Worst delta-LogLk 23.293

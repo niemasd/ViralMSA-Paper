@@ -1,0 +1,136 @@
+FastTree Version 2.1.11 Double precision (No SSE3)
+Alignment: standard input
+Nucleotide distances: Jukes-Cantor Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Generalized Time-Reversible, CAT approximation with 20 rate categories
+Ignored unknown character B (seen 2 times)
+Ignored unknown character K (seen 35 times)
+Ignored unknown character M (seen 26 times)
+Ignored unknown character R (seen 271 times)
+Ignored unknown character S (seen 10 times)
+Ignored unknown character W (seen 37 times)
+Ignored unknown character X (seen 143 times)
+Ignored unknown character Y (seen 134 times)
+      0.76 seconds: Top hits for    122 of    200 seqs (at seed    100)
+      1.27 seconds: Checking top hits for      1 of    200 seqs
+      3.10 seconds: Joined    100 of    197
+Initial topology in 4.50 seconds
+Refining topology: 31 rounds ME-NNIs, 2 rounds ME-SPRs, 15 rounds ML-NNIs
+      4.50 seconds: ME NNI round 1 of 31, 1 of 198 splits
+      4.74 seconds: ME NNI round 1 of 31, 101 of 198 splits, 21 changes (max delta 0.004)
+      4.96 seconds: ME NNI round 2 of 31, 1 of 198 splits
+      5.20 seconds: ME NNI round 2 of 31, 101 of 198 splits, 12 changes (max delta 0.004)
+      5.41 seconds: ME NNI round 3 of 31, 1 of 198 splits
+      5.65 seconds: ME NNI round 3 of 31, 101 of 198 splits, 13 changes (max delta 0.006)
+      6.00 seconds: ME NNI round 5 of 31, 1 of 198 splits
+      6.22 seconds: ME NNI round 6 of 31, 1 of 198 splits
+      6.38 seconds: ME NNI round 7 of 31, 1 of 198 splits
+      6.51 seconds: ME NNI round 8 of 31, 1 of 198 splits
+      6.63 seconds: ME NNI round 9 of 31, 1 of 198 splits
+     10.86 seconds: SPR round   1 of   2, 101 of 398 nodes
+     14.34 seconds: SPR round   1 of   2, 201 of 398 nodes
+     18.31 seconds: SPR round   1 of   2, 301 of 398 nodes
+     22.31 seconds: ME NNI round 11 of 31, 1 of 198 splits
+     22.53 seconds: ME NNI round 11 of 31, 101 of 198 splits, 1 changes (max delta 0.000)
+     22.73 seconds: ME NNI round 12 of 31, 1 of 198 splits
+     22.95 seconds: ME NNI round 12 of 31, 101 of 198 splits, 3 changes (max delta 0.000)
+     23.15 seconds: ME NNI round 13 of 31, 1 of 198 splits
+     23.32 seconds: ME NNI round 15 of 31, 1 of 198 splits
+     27.19 seconds: SPR round   2 of   2, 101 of 398 nodes
+     30.98 seconds: SPR round   2 of   2, 201 of 398 nodes
+     35.10 seconds: SPR round   2 of   2, 301 of 398 nodes
+     39.04 seconds: ME NNI round 21 of 31, 1 of 198 splits
+     39.28 seconds: ME NNI round 21 of 31, 101 of 198 splits, 1 changes (max delta 0.001)
+     39.48 seconds: ME NNI round 22 of 31, 1 of 198 splits
+     39.70 seconds: ME NNI round 22 of 31, 101 of 198 splits, 0 changes
+Total branch-length 9.686 after 40.41 sec
+     40.49 seconds: ML Lengths 1 of 198 splits
+     42.86 seconds: ML Lengths 101 of 198 splits
+     45.09 seconds: ML NNI round 1 of 15, 1 of 198 splits
+     52.01 seconds: ML NNI round 1 of 15, 101 of 198 splits, 17 changes (max delta 44.577)
+ML-NNI round 1: LogLk = -523786.795 NNIs 36 max delta 44.58 Time 58.39
+     58.39 seconds: Optimizing GTR model, step 1 of 12
+     60.73 seconds: Optimizing GTR model, step 2 of 12
+     64.19 seconds: Optimizing GTR model, step 3 of 12
+     67.45 seconds: Optimizing GTR model, step 4 of 12
+     70.69 seconds: Optimizing GTR model, step 5 of 12
+     73.97 seconds: Optimizing GTR model, step 6 of 12
+     77.20 seconds: Optimizing GTR model, step 7 of 12
+     79.31 seconds: Optimizing GTR model, step 8 of 12
+     81.60 seconds: Optimizing GTR model, step 9 of 12
+     83.89 seconds: Optimizing GTR model, step 10 of 12
+     86.01 seconds: Optimizing GTR model, step 11 of 12
+     88.09 seconds: Optimizing GTR model, step 12 of 12
+GTR Frequencies: 0.3634 0.1757 0.2391 0.2217
+GTR rates(ac ag at cg ct gt) 1.8515 3.9254 0.9982 1.0081 4.7468 1.0000
+     90.38 seconds: ML Lengths 1 of 198 splits
+     92.71 seconds: ML Lengths 101 of 198 splits
+     95.08 seconds: Site likelihoods with rate category 1 of 20
+     95.32 seconds: Site likelihoods with rate category 2 of 20
+     95.56 seconds: Site likelihoods with rate category 3 of 20
+     95.80 seconds: Site likelihoods with rate category 4 of 20
+     96.07 seconds: Site likelihoods with rate category 5 of 20
+     96.33 seconds: Site likelihoods with rate category 6 of 20
+     96.57 seconds: Site likelihoods with rate category 7 of 20
+     96.81 seconds: Site likelihoods with rate category 8 of 20
+     97.05 seconds: Site likelihoods with rate category 9 of 20
+     97.29 seconds: Site likelihoods with rate category 10 of 20
+     97.53 seconds: Site likelihoods with rate category 11 of 20
+     97.77 seconds: Site likelihoods with rate category 12 of 20
+     98.00 seconds: Site likelihoods with rate category 13 of 20
+     98.25 seconds: Site likelihoods with rate category 14 of 20
+     98.49 seconds: Site likelihoods with rate category 15 of 20
+     98.74 seconds: Site likelihoods with rate category 16 of 20
+     98.97 seconds: Site likelihoods with rate category 17 of 20
+     99.24 seconds: Site likelihoods with rate category 18 of 20
+     99.48 seconds: Site likelihoods with rate category 19 of 20
+     99.73 seconds: Site likelihoods with rate category 20 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 0.926 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+    100.10 seconds: ML NNI round 2 of 15, 1 of 198 splits
+    104.89 seconds: ML NNI round 2 of 15, 101 of 198 splits, 12 changes (max delta 24.702)
+ML-NNI round 2: LogLk = -420246.761 NNIs 26 max delta 24.70 Time 109.36
+    109.36 seconds: ML NNI round 3 of 15, 1 of 198 splits
+    114.18 seconds: ML NNI round 3 of 15, 101 of 198 splits, 6 changes (max delta 10.781)
+ML-NNI round 3: LogLk = -420185.369 NNIs 8 max delta 10.78 Time 115.33
+    115.32 seconds: ML NNI round 4 of 15, 1 of 198 splits
+ML-NNI round 4: LogLk = -420183.367 NNIs 3 max delta 1.02 Time 118.36
+    118.36 seconds: ML NNI round 5 of 15, 1 of 198 splits
+ML-NNI round 5: LogLk = -420183.082 NNIs 1 max delta 0.11 Time 119.58
+    119.58 seconds: ML NNI round 6 of 15, 1 of 198 splits
+ML-NNI round 6: LogLk = -420183.024 NNIs 0 max delta 0.00 Time 120.34
+Turning off heuristics for final round of ML NNIs (converged)
+    120.33 seconds: ML NNI round 7 of 15, 1 of 198 splits
+    129.47 seconds: ML NNI round 7 of 15, 101 of 198 splits, 3 changes (max delta 2.898)
+ML-NNI round 7: LogLk = -419980.889 NNIs 7 max delta 9.15 Time 137.74 (final)
+    137.73 seconds: ML Lengths 1 of 198 splits
+    139.95 seconds: ML Lengths 101 of 198 splits
+Optimize all lengths: LogLk = -419979.961 Time 142.12
+    153.51 seconds: ML split tests for    100 of    197 internal splits
+    164.59 seconds: Site likelihoods with rate category 1 of 20
+    164.85 seconds: Site likelihoods with rate category 2 of 20
+    165.11 seconds: Site likelihoods with rate category 3 of 20
+    165.35 seconds: Site likelihoods with rate category 4 of 20
+    165.59 seconds: Site likelihoods with rate category 5 of 20
+    165.86 seconds: Site likelihoods with rate category 6 of 20
+    166.12 seconds: Site likelihoods with rate category 7 of 20
+    166.37 seconds: Site likelihoods with rate category 8 of 20
+    166.63 seconds: Site likelihoods with rate category 9 of 20
+    166.89 seconds: Site likelihoods with rate category 10 of 20
+    167.14 seconds: Site likelihoods with rate category 11 of 20
+    167.40 seconds: Site likelihoods with rate category 12 of 20
+    167.65 seconds: Site likelihoods with rate category 13 of 20
+    167.89 seconds: Site likelihoods with rate category 14 of 20
+    168.18 seconds: Site likelihoods with rate category 15 of 20
+    168.46 seconds: Site likelihoods with rate category 16 of 20
+    168.73 seconds: Site likelihoods with rate category 17 of 20
+    168.99 seconds: Site likelihoods with rate category 18 of 20
+    169.25 seconds: Site likelihoods with rate category 19 of 20
+    169.51 seconds: Site likelihoods with rate category 20 of 20
+    169.71 seconds: Optimizing alpha round 1
+    170.11 seconds: Optimizing alpha round 2
+    170.35 seconds: Optimizing alpha round 3
+Gamma(20) LogLk = -429664.615 alpha = 0.309 rescaling lengths by 1.399
+Total time: 170.59 seconds Unique: 200/200 Bad splits: 1/197 Worst delta-LogLk 16.090
