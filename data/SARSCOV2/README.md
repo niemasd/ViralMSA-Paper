@@ -1,0 +1,1 @@
+This directory contains the SARS-CoV-2 dataset obtained from the [Global Initiative on Sharing All Influenza Data (GISAID) Database](https://www.gisaid.org/). Specifically, we used all whole genomes submitted to the database up until the morning of 2020-06-16.
