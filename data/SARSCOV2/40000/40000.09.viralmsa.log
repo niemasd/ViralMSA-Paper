@@ -1,0 +1,18 @@
+[2020-06-20 21:51:59] ===== RUN INFORMATION =====
+[2020-06-20 21:51:59] ViralMSA Version: 1.0.6
+[2020-06-20 21:51:59] Sequences: /mnt/disks/vireport-store/ViralMSA-Paper/data/SARSCOV2/40000/40000.09.true.fas
+[2020-06-20 21:51:59] Reference: MT072688
+[2020-06-20 21:51:59] Email Address: niemamoshiri@gmail.com
+[2020-06-20 21:51:59] Output Directory: /mnt/disks/vireport-store/ViralMSA-Paper/data/SARSCOV2/40000/40000.09.true.fas.viralmsa
+[2020-06-20 21:51:59] Aligner: minimap2
+[2020-06-20 21:51:59] ViralMSA Cache Directory: /home/niemamoshiri/.viralmsa
+[2020-06-20 21:51:59] 
+[2020-06-20 21:51:59] ===== REFERENCE GENOME =====
+[2020-06-20 21:51:59] Reference genome found: /home/niemamoshiri/.viralmsa/MT072688/MT072688.fas
+[2020-06-20 21:51:59] Minimap2 index found: /home/niemamoshiri/.viralmsa/MT072688/MT072688.fas.mmi
+[2020-06-20 21:51:59] 
+[2020-06-20 21:51:59] ===== ALIGNMENT =====
+[2020-06-20 21:51:59] Aligning using Minimap2: minimap2 -t 8 -a -o /mnt/disks/vireport-store/ViralMSA-Paper/data/SARSCOV2/40000/40000.09.true.fas.viralmsa/40000.09.true.fas.sam /home/niemamoshiri/.viralmsa/MT072688/MT072688.fas.mmi /mnt/disks/vireport-store/ViralMSA-Paper/data/SARSCOV2/40000/40000.09.true.fas
+[2020-06-20 21:53:39] Minimap2 alignment complete: /mnt/disks/vireport-store/ViralMSA-Paper/data/SARSCOV2/40000/40000.09.true.fas.viralmsa/40000.09.true.fas.sam
+[2020-06-20 21:53:39] Converting SAM to FASTA...
+[2020-06-20 21:53:42] Multiple sequence alignment complete: /mnt/disks/vireport-store/ViralMSA-Paper/data/SARSCOV2/40000/40000.09.true.fas.viralmsa/40000.09.true.fas.aln
