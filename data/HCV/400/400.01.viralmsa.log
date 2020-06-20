@@ -1,0 +1,18 @@
+[2020-06-20 16:54:57] ===== RUN INFORMATION =====
+[2020-06-20 16:54:57] ViralMSA Version: 1.0.6
+[2020-06-20 16:54:57] Sequences: /mnt/disks/vireport-store/ViralMSA-Paper/data/HCV/400/400.01.true.fas
+[2020-06-20 16:54:57] Reference: NC_004102
+[2020-06-20 16:54:57] Email Address: niemamoshiri@gmail.com
+[2020-06-20 16:54:57] Output Directory: /mnt/disks/vireport-store/ViralMSA-Paper/data/HCV/400/400.01.true.fas.viralmsa
+[2020-06-20 16:54:57] Aligner: minimap2
+[2020-06-20 16:54:57] ViralMSA Cache Directory: /home/niemamoshiri/.viralmsa
+[2020-06-20 16:54:57] 
+[2020-06-20 16:54:57] ===== REFERENCE GENOME =====
+[2020-06-20 16:54:57] Reference genome found: /home/niemamoshiri/.viralmsa/NC_004102/NC_004102.fas
+[2020-06-20 16:54:57] Minimap2 index found: /home/niemamoshiri/.viralmsa/NC_004102/NC_004102.fas.mmi
+[2020-06-20 16:54:57] 
+[2020-06-20 16:54:57] ===== ALIGNMENT =====
+[2020-06-20 16:54:57] Aligning using Minimap2: minimap2 -t 8 -a -o /mnt/disks/vireport-store/ViralMSA-Paper/data/HCV/400/400.01.true.fas.viralmsa/400.01.true.fas.sam /home/niemamoshiri/.viralmsa/NC_004102/NC_004102.fas.mmi /mnt/disks/vireport-store/ViralMSA-Paper/data/HCV/400/400.01.true.fas
+[2020-06-20 16:54:58] Minimap2 alignment complete: /mnt/disks/vireport-store/ViralMSA-Paper/data/HCV/400/400.01.true.fas.viralmsa/400.01.true.fas.sam
+[2020-06-20 16:54:58] Converting SAM to FASTA...
+[2020-06-20 16:54:58] Multiple sequence alignment complete: /mnt/disks/vireport-store/ViralMSA-Paper/data/HCV/400/400.01.true.fas.viralmsa/400.01.true.fas.aln
