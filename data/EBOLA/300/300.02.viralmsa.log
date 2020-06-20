@@ -1,0 +1,18 @@
+[2020-06-20 20:51:45] ===== RUN INFORMATION =====
+[2020-06-20 20:51:45] ViralMSA Version: 1.0.6
+[2020-06-20 20:51:45] Sequences: /mnt/disks/vireport-store/ViralMSA-Paper/data/EBOLA/300/300.02.true.fas
+[2020-06-20 20:51:45] Reference: NC_002549
+[2020-06-20 20:51:45] Email Address: niemamoshiri@gmail.com
+[2020-06-20 20:51:45] Output Directory: /mnt/disks/vireport-store/ViralMSA-Paper/data/EBOLA/300/300.02.true.fas.viralmsa
+[2020-06-20 20:51:45] Aligner: minimap2
+[2020-06-20 20:51:45] ViralMSA Cache Directory: /home/niemamoshiri/.viralmsa
+[2020-06-20 20:51:45] 
+[2020-06-20 20:51:45] ===== REFERENCE GENOME =====
+[2020-06-20 20:51:45] Reference genome found: /home/niemamoshiri/.viralmsa/NC_002549/NC_002549.fas
+[2020-06-20 20:51:45] Minimap2 index found: /home/niemamoshiri/.viralmsa/NC_002549/NC_002549.fas.mmi
+[2020-06-20 20:51:45] 
+[2020-06-20 20:51:45] ===== ALIGNMENT =====
+[2020-06-20 20:51:45] Aligning using Minimap2: minimap2 -t 8 -a -o /mnt/disks/vireport-store/ViralMSA-Paper/data/EBOLA/300/300.02.true.fas.viralmsa/300.02.true.fas.sam /home/niemamoshiri/.viralmsa/NC_002549/NC_002549.fas.mmi /mnt/disks/vireport-store/ViralMSA-Paper/data/EBOLA/300/300.02.true.fas
+[2020-06-20 20:51:46] Minimap2 alignment complete: /mnt/disks/vireport-store/ViralMSA-Paper/data/EBOLA/300/300.02.true.fas.viralmsa/300.02.true.fas.sam
+[2020-06-20 20:51:46] Converting SAM to FASTA...
+[2020-06-20 20:51:46] Multiple sequence alignment complete: /mnt/disks/vireport-store/ViralMSA-Paper/data/EBOLA/300/300.02.true.fas.viralmsa/300.02.true.fas.aln
