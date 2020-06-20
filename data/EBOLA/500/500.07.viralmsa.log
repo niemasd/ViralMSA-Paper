@@ -1,0 +1,19 @@
+[2020-06-20 17:08:12] ===== RUN INFORMATION =====
+[2020-06-20 17:08:12] ViralMSA Version: 1.0.6
+[2020-06-20 17:08:12] Sequences: /mnt/disks/vireport-store/ViralMSA-Paper/data/EBOLA/500/500.07.true.fas
+[2020-06-20 17:08:12] Reference: NC_004102
+[2020-06-20 17:08:12] Email Address: niemamoshiri@gmail.com
+[2020-06-20 17:08:12] Output Directory: /mnt/disks/vireport-store/ViralMSA-Paper/data/EBOLA/500/500.07.true.fas.viralmsa
+[2020-06-20 17:08:12] Aligner: minimap2
+[2020-06-20 17:08:12] ViralMSA Cache Directory: /home/niemamoshiri/.viralmsa
+[2020-06-20 17:08:12] 
+[2020-06-20 17:08:12] ===== REFERENCE GENOME =====
+[2020-06-20 17:08:12] Reference genome found: /home/niemamoshiri/.viralmsa/NC_004102/NC_004102.fas
+[2020-06-20 17:08:12] Minimap2 index found: /home/niemamoshiri/.viralmsa/NC_004102/NC_004102.fas.mmi
+[2020-06-20 17:08:12] 
+[2020-06-20 17:08:12] ===== ALIGNMENT =====
+[2020-06-20 17:08:12] Aligning using Minimap2: minimap2 -t 8 -a -o /mnt/disks/vireport-store/ViralMSA-Paper/data/EBOLA/500/500.07.true.fas.viralmsa/500.07.true.fas.sam /home/niemamoshiri/.viralmsa/NC_004102/NC_004102.fas.mmi /mnt/disks/vireport-store/ViralMSA-Paper/data/EBOLA/500/500.07.true.fas
+[2020-06-20 17:08:12] Minimap2 alignment complete: /mnt/disks/vireport-store/ViralMSA-Paper/data/EBOLA/500/500.07.true.fas.viralmsa/500.07.true.fas.sam
+[2020-06-20 17:08:12] Converting SAM to FASTA...
+[2020-06-20 17:08:12] Multiple sequence alignment complete: /mnt/disks/vireport-store/ViralMSA-Paper/data/EBOLA/500/500.07.true.fas.viralmsa/500.07.true.fas.aln
+[2020-06-20 17:08:12] WARNING: Some sequences from the input are missing from the output. Perhaps try a different aligner or reference genome?
