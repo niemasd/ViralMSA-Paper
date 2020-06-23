@@ -10,9 +10,9 @@ from sys import argv
 # parse tn93 file
 def parse_tn93(fn):
     if fn.lower().endswith('.gz'):
-        data = [l.strip() for l in gopen(fn).read().decode().strip().splitlines() if not l.startswith('ID1,')]
+        data = [l.strip() for l in gopen(fn).read().decode().strip().splitlines() if not l.startswith('ID1,') and l.count(',') == 2]
     else:
-        data = [l.strip() for l in open(fn) if not l.startswith('ID1,')]
+        data = [l.strip() for l in open(fn) if not l.startswith('ID1,') and l.count(',') == 2]
     dm = dict()
     for l in data:
         u,v,d = l.split(','); u = u.strip(); v = v.strip(); d = float(d)
@@ -22,7 +22,9 @@ def parse_tn93(fn):
             dm[v] = dict()
         dm[u][v] = dm[v][u] = d
     IDs = list(dm.keys())
-    return [[0 if u == v else dm[u][v] for v in IDs] for u in IDs]
+    for u in IDs:
+        dm[u][u] = 0
+    return dm
 
 # main functionality
 if __name__ == "__main__":
@@ -39,6 +41,9 @@ if __name__ == "__main__":
     # parse distance matrices
     dm1 = parse_tn93(argv[1])
     dm2 = parse_tn93(argv[2])
-    coeff, p_value, n = mantel(dm1, dm2, method=method, permutations=0)
+    IDs = list(dm1.keys())
+    arr1 = [[dm1[u][v] if v in dm1[u] else 1 for v in IDs] for u in IDs]
+    arr2 = [[dm2[u][v] if v in dm2[u] else 1 for v in IDs] for u in IDs]
+    coeff, p_value, n = mantel(arr1, arr2, method=method, permutations=0)
     print("%s Correlation: %f" % (method.capitalize(), coeff))
     #print("p-Value: %f" % p_value)
