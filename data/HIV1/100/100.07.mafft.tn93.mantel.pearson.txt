@@ -1,1 +1,1 @@
-Pearson Correlation: 0.304170
+Pearson Correlation: 0.997466
