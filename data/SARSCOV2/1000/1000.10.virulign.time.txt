@@ -1,4 +1,3 @@
-/home/niemamoshiri/ViralMSA-Paper/scripts/run_VIRULIGN.sh: line 5:  1548 Killed                  virulign "$2" "$1" --exportKind GlobalAlignment --exportAlphabet Nucleotides > "$1.virulign.aln" 2> "$1.virulign.log"
 
 real	115m8.022s
 user	108m37.608s
